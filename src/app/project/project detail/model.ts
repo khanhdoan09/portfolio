@@ -39,5 +39,4 @@ export let projects:Project[]= [
   {id: '5', tag:[tag.all, tag.java], name:'tetris game', logo:[logo.java], type:type.group, content:'I used design pattern(strategy pattern, observer pattern, singleton pattern) to translate language for this project', source:'https://github.com/khanhdoan09/TKHDT'},
   {id:'6', tag:[tag.all, tag.html, tag.css, tag.js], name:'pokemon game', logo:[logo.html, logo.css, logo.js], type:type.personal, content:'Create a game pokemon connection with vanilla js and scss', source:'https://github.com/khanhdoan09/pikachu_game'},
   {id:'7', tag:[tag.all, tag.html, tag.css, tag.js, tag.angular], name:'app chat', logo:[logo.html, logo.css, logo.js, logo.angular], type:type.group, content:'use api firebase and api school to take on the task of sending and downloading messages in project', source:'https://github.com/khanhdoan09/Lap_Trinh_Frontend_Nhom31'},
-
 ]
