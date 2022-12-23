@@ -1,8 +1,8 @@
 export let type = {group: 'group project', personal: 'personal project'}
 export let tag = {
   all: 'showAll', html:'html', css:'css', js:'javascript',
-   java:'java', cs:'c#', angular:'angular', nodejs:'nodejs',
-    mysql:'mysql', sqlserver:'sql server', mongodb: 'mongodb', react: 'react'}
+   java:'java', cs:'c#', angular:'angular', react: 'react', nodejs:'nodejs',
+    mysql:'mysql', sqlserver:'sql server', mongodb: 'mongodb'}
 let logo={
 html:'assets/image/logo/html.svg',
 css:'assets/image/logo/css.svg',
@@ -36,8 +36,8 @@ export interface Project {
 
 export let projects:Project[]= [
   {id: '1', tag:[tag.all, tag.html, tag.css, tag.js, tag.angular], name:'portfolio', logo:[logo.angular, logo.html, logo.css, logo.js, logo.bootstrap], type:type.personal, content:'Not use web template to introduce information about me, what skills i have and technology i have used', source_1:'#', source_2:''},
-  {id:'2', tag:[tag.all, tag.react, tag.nodejs, tag.mongodb], name:'booking home', logo:[logo.react, logo.nodejs, logo.mongodb], type:type.group, content:'I do the job of filtering searches, updating user information, getting purchase history and evaluating purchased products', source_1:'https://github.com/khanhdoan09/house-booking-server', source_2:'https://github.com/khanhdoan09/house-booking-client'},
-  {id: '3', tag:[tag.all, tag.cs, tag.sqlserver], name:'admin page', logo:[logo.cs, logo.dotNet, logo.sqlServer], type:type.group, content:' I write backend amin page which applied asp mvc, linQ, entity framework', source_1:'https://github.com/khanhdoan09/Admin-Page', source_2:''},
+  {id:'2', tag:[tag.all, tag.react, tag.nodejs, tag.mongodb], name:'booking home', logo:[logo.react, logo.nodejs, logo.mongodb], type:type.group, content:'I do the job of filtering searches, updating user information, getting purchase history and evaluating purchased products', source_1:'https://github.com/khanhdoan09/homestay-server', source_2:'https://github.com/khanhdoan09/homestay-client'},
+  {id: '3', tag:[tag.all, tag.cs, tag.sqlserver], name:'admin page', logo:[logo.cs, logo.dotNet, logo.sqlServer], type:type.group, content:' I write backend amin page which applied asp mvc, linQ, entity framework', source_1:'https://github.com/khanhdoan09/watch-store', source_2:''},
   {id:'4', tag:[tag.all, tag.java], name:'web stream movie', logo:[logo.spring, logo.java, logo.mySql], type:type.personal, content:'I code backend for a website to watch movie online with spring boot', source_1:'https://github.com/khanhdoan09/movie_be', source_2:''},
   {id: '5', tag:[tag.all, tag.java, tag.mysql], name:'shoe e-commerce', logo:[logo.java, logo.jsp, logo.jdbc,logo.jquery, logo.mySql], type:type.group, content:'I write backend for amin page, filter search, pagination which applied jsp and servlet', source_1:'https://github.com/khanhdoan09/ltw', source_2:''},
   {id: '6', tag:[tag.all, tag.java], name:'tetris game', logo:[logo.java], type:type.group, content:'I used design pattern(strategy pattern, observer pattern, singleton pattern) to translate language for this project', source_1:'https://github.com/khanhdoan09/TKHDT', source_2: ''},
